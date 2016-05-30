@@ -3,7 +3,10 @@ http://theaigames.com/competitions/ai-block-battle
 
 AI Blockbattle is a turn-based game which resembles Tetris. For more information on the rules, see the link to the competition above. In this competition, players write an AI to play Blockbattle and submit their bots to the competition servers. The bots then play against each other and are ranked by an system similar to ELO.
 
-**Build Instructions:** Run "make all" in the directory
+**Build Instructions:** 
+Move into the directory
+Run "mkdir obj"
+Run "make all"
 
 If you understand the game, here is a brief description of the strategy.
 There are two components to my bot: Search strategy and evaluation. Search strategy refers to how you determine what possible board states your bot could reach. Evaluation is how you determine how good a given board state is.
